@@ -1,0 +1,60 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EGI-Federation/eosc-data-transfer:
+      branch: main
+      repo: https://github.com/EGI-Federation/eosc-data-transfer.git
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/2.2.1
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/EGI-Federation/eosc-data-transfer git:
+        commands:
+        - /usr/bin/env sh .sqa/script.gimpy-apricot-hedgehog.sh
+        container: qc.acc_skimpy-firebrick-budgerigar
+  QC.Doc:
+    repos:
+      github.com/EGI-Federation/eosc-data-transfer find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.chummy-olivine-mau.sh
+        container: qc.doc_baggy-harlequin-ibis
+      github.com/EGI-Federation/eosc-data-transfer git:
+        commands:
+        - /usr/bin/env sh .sqa/script.stinky-taupe-quetzal.sh
+        container: qc.doc_gamy-vermilion-goose
+      github.com/EGI-Federation/eosc-data-transfer markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.bluesy-ruby-badger.sh
+        container: qc.doc_grumpy-persimmon-dragonfly
+  QC.Lic:
+    repos:
+      github.com/EGI-Federation/eosc-data-transfer licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.cheeky-apricot-fish.sh
+        container: qc.lic_muzzy-maroon-uguisu
+  QC.Sty:
+    repos:
+      github.com/EGI-Federation/eosc-data-transfer checkstyle:
+        commands:
+        - /usr/bin/env sh .sqa/script.baggy-purple-cheetah.sh
+        container: qc.sty_stinky-olivine-lobster
+      github.com/EGI-Federation/eosc-data-transfer hadolint:
+        commands:
+        - /usr/bin/env sh .sqa/script.hilly-periwinkle-mongoose.sh
+        container: qc.sty_clammy-asparagus-dugong
+      github.com/EGI-Federation/eosc-data-transfer jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.fuzzy-magenta-chinook.sh
+        container: qc.sty_geeky-chocolate-hedgehog
+  QC.Ver:
+    repos:
+      github.com/EGI-Federation/eosc-data-transfer get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.lanky-turquoise-rattlesnake.sh
+        container: qc.ver_lovely-taupe-tapir
+timeout: 5400
