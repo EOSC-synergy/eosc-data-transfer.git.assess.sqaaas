@@ -3,7 +3,7 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/eosc-data-transfer.git.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/eosc-data-transfer.git.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1767633966.6512752
+        "timestamp": 1767634143.2190733
     },
     "repository": [
         {
@@ -1647,24 +1647,24 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "id": "695bf43017a53648e317dfc7",
-                "entityId": "SzwRhMIcRW2qhl3iQQZ2Dw",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/SzwRhMIcRW2qhl3iQQZ2Dw",
-                "createdAt": "2026-01-05T17:26:08.419390629Z",
+                "id": "695bf4e117a53648e317dfcb",
+                "entityId": "p5NcpnW7RhO_YZBD--acUg",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/p5NcpnW7RhO_YZBD--acUg",
+                "createdAt": "2026-01-05T17:29:05.205104493Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "IDUsZJpNQPuiJpPwmJ8iJw",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://badges.parchment.eu/public/assertions/SzwRhMIcRW2qhl3iQQZ2Dw/image",
+                "image": "https://badges.parchment.eu/public/assertions/p5NcpnW7RhO_YZBD--acUg/image",
                 "recipient": {
-                    "identity": "sha256$5485e49b3704402da3164a8b974bda3cedf937dda9d9e2de8e5f36372f2e479e",
+                    "identity": "sha256$956dda4fa32f016a8d943d9c62550efa72a0fdfa5b40532f655948ae2ae3e3ea",
                     "hashed": true,
                     "type": "url",
-                    "salt": "sttOsyPYXQJRfXT0",
+                    "salt": "cFQuo5HeloyGM5kl",
                     "plaintextIdentity": "https://github.com/EGI-Federation/eosc-data-transfer.git"
                 },
-                "issuedOn": "2026-01-05T17:26:08.419394355Z",
+                "issuedOn": "2026-01-05T17:29:05.205108131Z",
                 "narrative": "Repository 'https://github.com/EGI-Federation/eosc-data-transfer.git' at version 'fc53fd2fe228e3f108c62d615dd5dddc899bb186' passed successfully the following quality criteria: QC.Doc QC.Ver QC.Met QC.Lic QC.Acc",
                 "evidence": [
                     {
@@ -1678,7 +1678,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/SzwRhMIcRW2qhl3iQQZ2Dw"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/p5NcpnW7RhO_YZBD--acUg"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/IDUsZJpNQPuiJpPwmJ8iJw"
@@ -1690,11 +1690,11 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-SzwRhMIcRW2qhl3iQQZ2Dw.png",
+                "imagePath": "uploads/badges/assertion-p5NcpnW7RhO_YZBD--acUg.png",
                 "ob3AwardProperties": null
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/SzwRhMIcRW2qhl3iQQZ2Dw?identity__url=https%3A//github.com/EOSC-synergy/eosc-data-transfer.git.assess.sqaaas/commit/8b65417e3556b8add17c22b307215520c7e09eff\"><img width=\"120px\" height=\"120px\" src=\"https://badges.parchment.eu/public/assertions/SzwRhMIcRW2qhl3iQQZ2Dw/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FSzwRhMIcRW2qhl3iQQZ2Dw?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Feosc-data-transfer.git.assess.sqaaas%2Fcommit%2F8b65417e3556b8add17c22b307215520c7e09eff&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Feosc-data-transfer.git.assess.sqaaas%2Fcommit%2F8b65417e3556b8add17c22b307215520c7e09eff"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/p5NcpnW7RhO_YZBD--acUg?identity__url=https%3A//github.com/EOSC-synergy/eosc-data-transfer.git.assess.sqaaas/commit/8b65417e3556b8add17c22b307215520c7e09eff\"><img width=\"120px\" height=\"120px\" src=\"https://badges.parchment.eu/public/assertions/p5NcpnW7RhO_YZBD--acUg/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2Fp5NcpnW7RhO_YZBD--acUg?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Feosc-data-transfer.git.assess.sqaaas%2Fcommit%2F8b65417e3556b8add17c22b307215520c7e09eff&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Feosc-data-transfer.git.assess.sqaaas%2Fcommit%2F8b65417e3556b8add17c22b307215520c7e09eff"
         }
     }
 }
