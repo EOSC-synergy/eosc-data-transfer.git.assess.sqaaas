@@ -5,5 +5,5 @@
 
 (
 cd github.com/EGI-Federation/eosc-data-transfer &&
-    hadolint src/main/docker/data-transfer/Dockerfile src/main/docker/cert/Dockerfile --failure-threshold error
+    hadolint src/main/docker/cert/Dockerfile src/main/docker/data-transfer/Dockerfile --failure-threshold error
 )
